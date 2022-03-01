@@ -13,3 +13,5 @@ typedef enum {
  * @return positive code if true, CMD_EXT otherwise
  */
 cmd_t chkBuiltin(char *cmd);
+
+void addToHist(char * input);
